@@ -13,6 +13,7 @@ public class ConnectionPoolImpl implements ConnectionPool {
     //synchronized
     Set<Connection> myConnections = new HashSet<>();
 
+
     @Override
     public AbstractConnection getConnection() {
         Connection conn;
